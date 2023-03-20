@@ -1,18 +1,18 @@
-
+require('dotenv').config();
 
 // Get Account Info with Riot API
 let KhoiQuangTa = {
     puuid: 'omNYk0A4itclmIEiAzZkQMxfn0ZaXW1chlWfBjMuBOmtpooEVuYSqkTaBpFHlm3AcZnz__Um7ATETA',
     gameName: 'KhoiQuangTa',
     tagLine: '8374',
-    apiKey: 'RGAPI-d330f5bc-d1ae-467f-bbbb-1b964f1ab565'
+    apiKey: ''
 }
 
 let TaQuangKhoi = {
     puuid: 'omNYk0A4itclmIEiAzZkQMxfn0ZaXW1chlWfBjMuBOmtpooEVuYSqkTaBpFHlm3AcZnz__Um7ATETA',
     gameName: 'TaQuangKhoi',
     tagLine: '8374',
-    apiKey: 'RGAPI-6572d7de-57f4-4716-943b-c45695e1eb2f'
+    apiKey: ''
 }
 
 console.log(endpoint);
